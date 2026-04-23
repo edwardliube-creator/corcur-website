@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edward Liu Blog | Insights & Notes</title>
+    <meta name="description" content="Edward Liu 博客模块骨架：用于后续扩展行业洞察、项目复盘与自动化实践文章。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <header class="site-header glass">
+      <a href="./index.html#hero" class="brand">Edward Liu</a>
+      <nav class="nav-links">
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#projects">Projects</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="blogLangToggle" class="icon-btn" aria-label="Toggle language">EN</button>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <section class="blog-hero reveal">
+          <div>
+            <span class="chip" id="blogChip">Blog Skeleton</span>
+            <h1 id="blogTitle">博客模块骨架</h1>
+            <p class="desc" id="blogDesc">用于后续扩展行业洞察、项目复盘、自动化案例与方法论文章，不影响当前主页结构。</p>
+          </div>
+          <div class="blog-actions">
+            <button id="filterAll" class="btn btn-soft">All</button>
+            <button id="filterAgent" class="btn btn-soft">AI Agent</button>
+            <button id="filterEntry" class="btn btn-soft">Market Entry</button>
+            <button id="filterGrowth" class="btn btn-soft">Growth</button>
+          </div>
+        </section>
+
+        <section class="blog-list" id="blogList"></section>
+        <section class="section" id="articleSection" hidden>
+          <article class="card article-shell">
+            <header class="article-top">
+              <p class="blog-meta" id="articleMeta"></p>
+              <h2 id="articleTitle"></h2>
+              <p class="article-subtitle" id="articleSubtitle"></p>
+            </header>
+            <section class="article-cover">
+              <h3 id="articleCoverTitle"></h3>
+              <p id="articleCoverDesc"></p>
+              <div class="tag-cloud" id="articleTags"></div>
+            </section>
+            <div class="article-main">
+              <aside class="article-side">
+                <h4>Author</h4>
+                <p>刘波 Edward</p>
+                <h4>Tags</h4>
+                <div class="tag-cloud" id="articleSideTags"></div>
+                <a class="btn btn-soft" href="#blogTitle">Back to top</a>
+              </aside>
+              <div class="markdown-content article-content" id="articleBody"></div>
+            </div>
+            <footer class="article-foot">
+              <button class="btn btn-ghost" id="articlePrev" type="button">上一篇</button>
+              <button class="btn btn-ghost" id="articleNext" type="button">下一篇</button>
+            </footer>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="section footer">
+      <div class="container">
+        <p>© 2026 Edward Liu</p>
+        <a href="./index.html#hero">Back Home</a>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/blog/main.js"></script>
+  </body>
+</html>

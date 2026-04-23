@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "slug": "ai-agent-indonesia-workflow",
+      "urlPath": "/ai-agent-indonesia-workflow",
+      "category": "AI Agent",
+      "titleZh": "AI Agent 工作流设计方法",
+      "titleEn": "AI Agent Workflow Design for Indonesia Market",
+      "subtitleZh": "面向印尼市场的自动化业务架构与落地模型",
+      "subtitleEn": "Automation architecture and execution model for Indonesia-focused business systems",
+      "excerptZh": "从流程设计出发，构建可执行的 AI Agent 系统，适用于地产、跨境服务与工业园招商场景。",
+      "excerptEn": "This article introduces a practical AI agent workflow architecture designed for the Indonesia market. It focuses on automation of lead generation, customer qualification, and sales conversion.",
+      "coverDescZh": "从流程设计出发，构建可执行的 AI Agent 系统，适用于地产、跨境服务与工业园招商场景。",
+      "coverDescEn": "Practical AI agent workflow architecture for real estate, cross-border services, and industrial park investment scenarios.",
+      "seoTitleZh": "AI Agent 工作流设计方法：印尼市场自动化销售与获客系统",
+      "seoTitleEn": "AI Agent Workflow Design for Indonesia Market Automation",
+      "tags": ["AI Agent", "Indonesia", "Workflow", "Automation"],
+      "date": "2026-04-06",
+      "readingTime": "8 min"
+    },
+    {
+      "slug": "indonesia-ai-market-entry",
+      "urlPath": "/indonesia-ai-market-entry",
+      "category": "Market Entry",
+      "titleZh": "印尼市场准入 AI 实战框架",
+      "titleEn": "AI Market Entry Framework for Indonesia",
+      "subtitleZh": "从行业选择到本地化落地的完整路径设计",
+      "subtitleEn": "A complete path from industry selection to local execution",
+      "excerptZh": "解析 AI 企业进入印尼市场的结构化方法，包含行业选择、产品本地化与商业模式设计。",
+      "excerptEn": "Indonesia is an emerging market for AI applications. This article outlines a structured market entry strategy including industry selection, localization, compliance structure, and monetization model.",
+      "coverDescZh": "解析 AI 企业进入印尼市场的结构化方法，包含行业选择、产品本地化与商业模式设计。",
+      "coverDescEn": "A structured market-entry framework covering industry selection, localization, compliance, and monetization.",
+      "seoTitleZh": "印尼 AI 市场准入指南：AI 企业进入印尼的落地框架",
+      "seoTitleEn": "Indonesia AI Market Entry Strategy for AI Companies",
+      "tags": ["Indonesia", "AI Strategy", "Market Entry", "SaaS"],
+      "date": "2026-03-24",
+      "readingTime": "7 min"
+    },
+    {
+      "slug": "ai-growth-china-to-indonesia",
+      "urlPath": "/ai-growth-china-to-indonesia",
+      "category": "Growth",
+      "titleZh": "跨境增长运营模型",
+      "titleEn": "AI-driven Cross-border Growth Model",
+      "subtitleZh": "中国企业进入印尼市场的 AI 驱动增长路径",
+      "subtitleEn": "An AI-driven growth path for China companies entering Indonesia",
+      "excerptZh": "构建 AI 自动化增长系统，实现内容生成、客户获取与销售转化的闭环。",
+      "excerptEn": "This article explains how AI can automate cross-border growth for companies entering Indonesia. The model covers traffic generation, AI lead capture, automated sales, and customer lifecycle management.",
+      "coverDescZh": "构建 AI 自动化增长系统，实现内容生成、客户获取与销售转化的闭环。",
+      "coverDescEn": "Build an AI automation growth system across content generation, lead capture, and conversion.",
+      "seoTitleZh": "跨境 AI 增长模型：中国企业进入印尼市场增长策略",
+      "seoTitleEn": "AI Growth Model for China Companies Entering Indonesia",
+      "tags": ["Growth", "Cross-border", "AI", "Indonesia"],
+      "date": "2026-03-02",
+      "readingTime": "7 min"
+    }
+  ]
+}
