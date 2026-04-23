@@ -3,6 +3,7 @@
   "cleanUrls": false,
   "trailingSlash": false,
   "routes": [
+    { "handle": "filesystem" },
     { "src": "^/$", "dest": "/index.html" },
     { "src": "^/blog$", "dest": "/blog.html" },
     { "src": "^/ai-agent-indonesia-workflow$", "dest": "/blog.html" },
