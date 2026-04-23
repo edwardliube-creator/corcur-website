@@ -2,13 +2,11 @@
   "version": 2,
   "cleanUrls": false,
   "trailingSlash": false,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "^/$", "dest": "/index.html" },
-    { "src": "^/blog$", "dest": "/blog.html" },
-    { "src": "^/ai-agent-indonesia-workflow$", "dest": "/blog.html" },
-    { "src": "^/indonesia-ai-market-entry$", "dest": "/blog.html" },
-    { "src": "^/ai-growth-china-to-indonesia$", "dest": "/blog.html" }
+  "rewrites": [
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/ai-agent-indonesia-workflow", "destination": "/blog.html" },
+    { "source": "/indonesia-ai-market-entry", "destination": "/blog.html" },
+    { "source": "/ai-growth-china-to-indonesia", "destination": "/blog.html" }
   ],
   "headers": [
     {
